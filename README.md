@@ -1,6 +1,6 @@
 # Análisis de Sentimientos con SVM
 
-## ### Introducción
+### Introducción
 
 Este proyecto está diseñado para facilitar el análisis de sentimientos de reseñas mediante el uso de Support Vector Machines (SVM). El sistema procesa datasets de reseñas, clasifica las opiniones en categorías de sentimiento (positivas, neutrales y negativas) y entrena un modelo SVM optimizado para realizar predicciones sobre nuevos datos.
 
@@ -8,7 +8,7 @@ El código está dividido en varios scripts para modularizar el proceso y permit
 
 ---
 
-## ### Descripción de los Scripts
+### Descripción de los Scripts
 
 ### **1. `process-dataset-train.py`**
 
@@ -81,7 +81,7 @@ Este script (no incluido explícitamente en el código proporcionado) puede ser 
 
 ---
 
-## ### Requisitos
+### Requisitos
 
 - **Python 3.8+**
 - **Bibliotecas necesarias**:
@@ -96,7 +96,7 @@ Este script (no incluido explícitamente en el código proporcionado) puede ser 
 
 ---
 
-## ### Instrucciones de Uso
+### Instrucciones de Uso
 
 1. **Preparación del entorno**
    - Instala las bibliotecas requeridas utilizando:
@@ -117,7 +117,7 @@ Este script (no incluido explícitamente en el código proporcionado) puede ser 
 
 ---
 
-## ### Salidas Esperadas
+### Salidas Esperadas
 
 - **Archivos procesados**: 
   - `all_datasets_reviews.csv` (entrenamiento).
@@ -132,6 +132,6 @@ Este script (no incluido explícitamente en el código proporcionado) puede ser 
 
 ---
 
-## ### Autor
+### Autor
 
 Este proyecto fue desarrollado por **Udane Viñas Templado** como parte de un proyecto para análisis de sentimientos con aprendizaje automático.
