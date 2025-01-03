@@ -230,7 +230,7 @@ if __name__ == "__main__":
     print("Modelo y vectorizador cargados correctamente.")
 
     # Carga y preprocesamiento del dataset no visto.
-    path = r"/Users/carlavinastemplado/Desktop/TFG SVM/datasets/apple/iphone_reviews_processed.csv"
+    path = r"/SVM_TFG/datasets/apple/iphone_reviews_processed.csv"
     dataset_not_view = load_dataset(path)
     dataset_not_view = dataset_not_view[dataset_not_view['Sentiment'].isin(['positive', 'negative'])]
     dataset_not_view['cleaned_text'] = dataset_not_view['Text'].apply(lambda x: preprocess_tweet(x, stop_words, lemmatizer))

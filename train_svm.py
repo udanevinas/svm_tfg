@@ -214,7 +214,7 @@ if __name__ == "__main__":
     lemmatizer = WordNetLemmatizer()
 
     # Carga y preprocesamiento del dataset
-    path = r"/Users/carlavinastemplado/Desktop/TFG SVM/datasets/all_datasets_reviews.csv"
+    path = r"/SVM_TFG/datasets/all_datasets_reviews.csv"
     dataset = load_dataset(path)
     dataset = dataset[dataset['Sentiment'].isin(['positive', 'negative'])]  # Filtrado de clases
     dataset['cleaned_text'] = dataset['Text'].apply(lambda x: preprocess_tweet(x, stop_words, lemmatizer))

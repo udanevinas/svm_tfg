@@ -37,7 +37,7 @@ def categorize_sentiment(target):
 # Bloque principal del script
 if __name__ == "__main__":
     # Definición de la ruta base para los datasets
-    PATH_DIR = '/Users/carlavinastemplado/Desktop/TFG SVM/datasets/'
+    PATH_DIR = '/SVM_TFG/datasets/'
 
     # Rutas específicas de los datasets
     path_amazon_mobiles = PATH_DIR + 'Amazon_Unlocked_Mobile.csv'
