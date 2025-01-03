@@ -75,12 +75,6 @@ Este script es el núcleo del proyecto, ya que entrena el modelo SVM para análi
 
 ---
 
-### **4. `predict.py` (opcional)**
-
-Este script (no incluido explícitamente en el código proporcionado) puede ser diseñado para cargar el modelo y realizar predicciones sobre nuevos textos. 
-
----
-
 ### Requisitos
 
 - **Python 3.8+**
