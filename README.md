@@ -121,7 +121,7 @@ Este script (no incluido explícitamente en el código proporcionado) puede ser 
 
 - **Archivos procesados**: 
   - `all_datasets_reviews.csv` (entrenamiento).
-  - `iphone_reviews_processed.csv` (prueba).
+  - `iphone_reviews_processed.csv` (test final).
 - **Modelo y vectorizador**: 
   - `svm_model.pkl`.
   - `tfidf_vectorizer.pkl`.
