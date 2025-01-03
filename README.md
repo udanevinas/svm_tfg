@@ -75,6 +75,27 @@ Este script es el núcleo del proyecto, ya que entrena el modelo SVM para análi
 
 ---
 
+### **4. `test.py`**
+
+Este script permite realizar pruebas y predicciones usando el modelo SVM entrenado, generando resultados con los datos de entrada.
+
+#### **Funciones principales**
+- **`load_model(model_path)`**: Carga el modelo SVM previamente entrenado desde un archivo `.pkl`.
+- **`load_vectorizer(vectorizer_path)`**: Carga el vectorizador TF-IDF.
+- **`preprocess_input(input_text, stop_words, lemmatizer)`**: Preprocesa el texto de entrada antes de la predicción.
+- **`predict_sentiment(model, vectorizer, input_text)`**: Realiza una predicción de sentimiento en el texto de entrada.
+
+#### **Flujo del script**
+1. Carga el modelo SVM y el vectorizador guardados.
+2. Preprocesa el texto de entrada, limpiando y transformando el texto.
+3. Realiza la predicción utilizando el modelo entrenado.
+4. Muestra el resultado de la predicción (sentimiento).
+
+#### **Salida**
+- El sentimiento predicho para el texto de entrada.
+
+---
+
 ### Requisitos
 
 - **Python 3.8+**
@@ -107,7 +128,7 @@ Este script es el núcleo del proyecto, ya que entrena el modelo SVM para análi
    - Ejecuta `train_svm.py` para entrenar y evaluar el modelo SVM.
 
 4. **Predicciones**
-   - Carga el modelo guardado desde `svm_model.pkl` y utiliza un script adicional para realizar predicciones sobre nuevos datos.
+   - Ejecuta `test.py` para hacer predicciones de sentimiento con el modelo entrenado.
 
 ---
 
